@@ -4,6 +4,15 @@ app_publisher = "Applied Relevance"
 app_description = "Slicing Pie Startup Funding Tracker for Epinomy"
 app_email = "geveritt@appliedrelevance.com"
 app_license = "mit"
+
+
+fixtures = [
+    {"doctype": "Workspace", "filters": {"name": ["in", ["Epinomy", "EpiFund"]]}},
+    {
+        "doctype": "Role",
+        "filters": {"name": ["in", ["EpiFund User", "EpiMind Administrator"]]},
+    }
+]
 # required_apps = []
 
 # Includes in <head>
