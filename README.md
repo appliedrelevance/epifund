@@ -65,7 +65,3 @@ Contributions to EpiFund are welcome! Please feel free to fork the repository, m
 ## License
 
 EpiFund is released under the [MIT License](LICENSE).
-
----
-
-You can further customize this `README.md` file to reflect any additional features or changes in EpiFund.
