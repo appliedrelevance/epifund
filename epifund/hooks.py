@@ -10,7 +10,7 @@ fixtures = [
     {"doctype": "Workspace", "filters": {"name": ["in", ["Epinomy", "EpiFund"]]}},
     {
         "doctype": "Role",
-        "filters": {"name": ["in", ["EpiFund User", "EpiMind Administrator"]]},
+        "filters": {"name": ["in", ["Founder Fund Contributor", "Founder Fund Administrator"]]},
     }
 ]
 # required_apps = []

@@ -12,7 +12,7 @@
   "is_hidden": 0,
   "label": "Epinomy",
   "links": [],
-  "modified": "2024-02-23 22:43:56.529478",
+  "modified": "2024-03-17 06:57:26.069422",
   "module": "EpiMind",
   "name": "Epinomy",
   "number_cards": [],
@@ -21,13 +21,13 @@
   "quick_lists": [],
   "restrict_to_domain": null,
   "roles": [],
-  "sequence_id": 1.0,
+  "sequence_id": 2.0,
   "shortcuts": [],
   "title": "Epinomy"
  },
  {
   "charts": [],
-  "content": "[{\"id\":\"CtMuzN9k4G\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">EpiFund</span>\",\"col\":12}}]",
+  "content": "[{\"id\":\"CtMuzN9k4G\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">EpiFund</span>\",\"col\":12}},{\"id\":\"XSVLEoDVLc\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Founder Funds\",\"col\":4}},{\"id\":\"E-4UDtM_aM\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Founders\",\"col\":4}},{\"id\":\"Xs5h194Zju\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Contributions\",\"col\":4}},{\"id\":\"MJH9-iu_3T\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Founder Positions\",\"col\":4}}]",
   "custom_blocks": [],
   "docstatus": 0,
   "doctype": "Workspace",
@@ -38,16 +38,49 @@
   "is_hidden": 0,
   "label": "EpiFund",
   "links": [],
-  "modified": "2024-03-15 14:51:00.290317",
+  "modified": "2024-03-17 17:23:22.777992",
   "module": null,
   "name": "EpiFund",
   "number_cards": [],
   "parent_page": "Epinomy",
   "public": 1,
-  "quick_lists": [],
+  "quick_lists": [
+   {
+    "document_type": "Founder Position",
+    "label": "Founder Positions",
+    "parent": "EpiFund",
+    "parentfield": "quick_lists",
+    "parenttype": "Workspace",
+    "quick_list_filter": "[]"
+   },
+   {
+    "document_type": "Founder Fund",
+    "label": "Founder Funds",
+    "parent": "EpiFund",
+    "parentfield": "quick_lists",
+    "parenttype": "Workspace",
+    "quick_list_filter": "[]"
+   },
+   {
+    "document_type": "Founder",
+    "label": "Founders",
+    "parent": "EpiFund",
+    "parentfield": "quick_lists",
+    "parenttype": "Workspace",
+    "quick_list_filter": "[]"
+   },
+   {
+    "document_type": "Contribution",
+    "label": "Contributions",
+    "parent": "EpiFund",
+    "parentfield": "quick_lists",
+    "parenttype": "Workspace",
+    "quick_list_filter": "[]"
+   }
+  ],
   "restrict_to_domain": null,
   "roles": [],
-  "sequence_id": 28.0,
+  "sequence_id": 4.0,
   "shortcuts": [],
   "title": "EpiFund"
  }
