@@ -1,0 +1,149 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-03-17 13:39:39.944966",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_inqa",
+  "contribution_type",
+  "unit",
+  "point_conversion_rate",
+  "column_break_kqyn",
+  "founder",
+  "date",
+  "value",
+  "points",
+  "section_break_nxhe",
+  "description",
+  "section_break_qylp",
+  "fund",
+  "history_tab",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_inqa",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Contribution",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "description": "Name of the contribution type, e.g., Base Hours, Overtime Hours, Working Capital, Legal Fees etc.",
+   "fieldname": "contribution_type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Contribution Type",
+   "options": "Contribution Type",
+   "reqd": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "description": "Date of the contribution",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date"
+  },
+  {
+   "description": "The unit of measurement for this contribution (Cash, Hours, Resources)",
+   "fieldname": "unit",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Unit",
+   "options": "Hours\nCash\nResources"
+  },
+  {
+   "fieldname": "value",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Value"
+  },
+  {
+   "description": "(Read Only) - Computed points value of this contribution",
+   "fieldname": "points",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Points",
+   "read_only": 1
+  },
+  {
+   "fieldname": "history_tab",
+   "fieldtype": "Tab Break",
+   "label": "History"
+  },
+  {
+   "description": "Link to the Founder Fund",
+   "fieldname": "fund",
+   "fieldtype": "Link",
+   "label": "Fund",
+   "options": "Founder Fund"
+  },
+  {
+   "fieldname": "column_break_kqyn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_nxhe",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_qylp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "Link to the Grunt making this contribution",
+   "fieldname": "founder",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Founder",
+   "options": "Founder"
+  },
+  {
+   "fetch_from": "contribution_type.point_conversion_rate",
+   "fieldname": "point_conversion_rate",
+   "fieldtype": "Float",
+   "label": "Point Conversion Rate",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-03-17 16:39:11.279609",
+ "modified_by": "Administrator",
+ "module": "EpiFund",
+ "name": "Contribution",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
