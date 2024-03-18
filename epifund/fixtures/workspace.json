@@ -27,7 +27,7 @@
  },
  {
   "charts": [],
-  "content": "[{\"id\":\"RHezslvICu\",\"type\":\"spacer\",\"data\":{\"col\":6}},{\"id\":\"kfGDx9Cic9\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Theoretical Value of Fund\",\"col\":6}},{\"id\":\"CtMuzN9k4G\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">EpiFund</span>\",\"col\":12}},{\"id\":\"XSVLEoDVLc\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Founder Funds\",\"col\":4}},{\"id\":\"E-4UDtM_aM\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Founders\",\"col\":4}},{\"id\":\"Xs5h194Zju\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Contributions\",\"col\":4}},{\"id\":\"MJH9-iu_3T\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Founder Positions\",\"col\":4}}]",
+  "content": "[{\"id\":\"Dise5hBsRG\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Founder Contributions\",\"col\":3}},{\"id\":\"RHezslvICu\",\"type\":\"spacer\",\"data\":{\"col\":3}},{\"id\":\"kfGDx9Cic9\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Theoretical Value of Fund\",\"col\":6}},{\"id\":\"CtMuzN9k4G\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">EpiFund</span>\",\"col\":12}},{\"id\":\"XSVLEoDVLc\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Founder Funds\",\"col\":4}},{\"id\":\"E-4UDtM_aM\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Founders\",\"col\":4}},{\"id\":\"Xs5h194Zju\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Contributions\",\"col\":4}},{\"id\":\"MJH9-iu_3T\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Founder Positions\",\"col\":4}}]",
   "custom_blocks": [],
   "docstatus": 0,
   "doctype": "Workspace",
@@ -38,7 +38,7 @@
   "is_hidden": 0,
   "label": "EpiFund",
   "links": [],
-  "modified": "2024-03-17 18:39:43.730138",
+  "modified": "2024-03-17 18:44:34.939233",
   "module": null,
   "name": "EpiFund",
   "number_cards": [
@@ -89,7 +89,24 @@
   "restrict_to_domain": null,
   "roles": [],
   "sequence_id": 4.0,
-  "shortcuts": [],
+  "shortcuts": [
+   {
+    "color": "Grey",
+    "doc_view": "List",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "Founder Contributions",
+    "link_to": "Points by Founder",
+    "parent": "EpiFund",
+    "parentfield": "shortcuts",
+    "parenttype": "Workspace",
+    "restrict_to_domain": null,
+    "stats_filter": null,
+    "type": "Report",
+    "url": null
+   }
+  ],
   "title": "EpiFund"
  }
 ]

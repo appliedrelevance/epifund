@@ -11,7 +11,8 @@ fixtures = [
     {
         "doctype": "Role",
         "filters": {"name": ["in", ["Founder Fund Contributor", "Founder Fund Administrator"]]},
-    }
+    },
+    {"doctype": "Contribution Type"}
 ]
 # required_apps = []
 

@@ -1,0 +1,36 @@
+{
+ "add_total_row": 1,
+ "columns": [],
+ "creation": "2024-03-17 18:15:56.026460",
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 1,
+ "is_standard": "Yes",
+ "json": "{\"filters\":[],\"fields\":[[\"name\",\"Contribution\"],[\"docstatus\",\"Contribution\"],[\"founder\",\"Contribution\"],[\"value\",\"Contribution\"],[\"unit\",\"Contribution\"],[\"points\",\"Contribution\"],[\"date\",\"Contribution\"],[\"contribution_type\",\"Contribution\"]],\"order_by\":\"`tabContribution`.`modified` desc\",\"page_length\":20,\"column_widths\":{\"name\":120,\"docstatus\":120,\"founder\":120,\"value\":120,\"unit\":120,\"points\":120,\"date\":120,\"contribution_type\":120},\"group_by\":null,\"chart_args\":{\"chart_type\":\"pie\",\"x_axis\":\"founder\",\"y_axes\":[\"points\"]}}",
+ "letterhead": null,
+ "modified": "2024-03-18 09:05:06.248739",
+ "modified_by": "Administrator",
+ "module": "EpiFund",
+ "name": "Points by Founder",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Contribution",
+ "report_name": "Points by Founder",
+ "report_type": "Report Builder",
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Founder Fund Contributor"
+  },
+  {
+   "role": "Founder Fund Contributor"
+  },
+  {
+   "role": "Founder Fund Administrator"
+  }
+ ]
+}
