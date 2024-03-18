@@ -1,0 +1,39 @@
+{
+ "based_on": "date",
+ "chart_name": "Founder Pie",
+ "chart_type": "Sum",
+ "creation": "2024-03-17 18:18:40.352217",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "document_type": "Contribution",
+ "dynamic_filters_json": "[]",
+ "filters_json": "[]",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 0,
+ "is_standard": 1,
+ "last_synced_on": "2024-03-17 18:22:08.313659",
+ "modified": "2024-03-17 18:24:26.414600",
+ "modified_by": "Administrator",
+ "module": "EpiFund",
+ "name": "Founder Pie",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "parent_document_type": "",
+ "roles": [
+  {
+   "role": "Founder Fund Administrator"
+  },
+  {
+   "role": "Founder Fund Contributor"
+  }
+ ],
+ "source": "",
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Donut",
+ "use_report_chart": 0,
+ "value_based_on": "points",
+ "y_axis": []
+}

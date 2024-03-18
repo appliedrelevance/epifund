@@ -1,0 +1,21 @@
+{
+ "cards": [],
+ "charts": [
+  {
+   "chart": "Founder Dashboard Pie",
+   "width": "Full"
+  }
+ ],
+ "creation": "2024-03-17 18:21:05.042170",
+ "dashboard_name": "Founder Pie Dashboard",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2024-03-17 18:21:05.042170",
+ "modified_by": "Administrator",
+ "module": "EpiFund",
+ "name": "Founder Pie Dashboard",
+ "owner": "Administrator"
+}
