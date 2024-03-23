@@ -1,0 +1,142 @@
+{
+ "charts": [
+  {
+   "chart_name": "Founder Pie",
+   "label": "Contributions Over Time"
+  }
+ ],
+ "content": "[{\"id\":\"TPYeUVBMe4\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">EpiFund</span>\",\"col\":12}},{\"id\":\"C1llQkDSmj\",\"type\":\"paragraph\",\"data\":{\"text\":\"EpiFund is a fair way of valuing a startup based on actual contributions and the <b>Slicing Pie</b>&nbsp;method.\",\"col\":12}},{\"id\":\"RtvEu5YNmo\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Slicing Pie Website\",\"col\":4}},{\"id\":\"JkJVSo64hL\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Points Distribution by Founder\",\"col\":4}},{\"id\":\"9kHyGZKw2J\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Valuation</b></span>\",\"col\":12}},{\"id\":\"hK6k5JIXLv\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Contributions Over Time\",\"col\":8}},{\"id\":\"gXIA1rL2Lp\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Theoretical Value of Fund\",\"col\":4}},{\"id\":\"jM87pEG0qx\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Details</b></span>\",\"col\":12}},{\"id\":\"WbSwid97de\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports and Settings\",\"col\":4}},{\"id\":\"QTE8zp_09g\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Founders\",\"col\":4}},{\"id\":\"m4G3WZvwi8\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Contributions\",\"col\":4}}]",
+ "creation": "2024-03-22 15:35:37.324037",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "equity",
+ "idx": 0,
+ "indicator_color": "cyan",
+ "is_hidden": 0,
+ "label": "EpiFund",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reports and Settings",
+   "link_count": 6,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Founder Fund Settings",
+   "link_count": 0,
+   "link_to": "Founder Fund Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Founders",
+   "link_count": 0,
+   "link_to": "Founder",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Contribution Types",
+   "link_count": 0,
+   "link_to": "Contribution Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Contributions",
+   "link_count": 0,
+   "link_to": "Contribution",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Founder Funds",
+   "link_count": 0,
+   "link_to": "Founder Fund",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Founder Positions",
+   "link_count": 0,
+   "link_to": "Founder Position",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-03-23 11:24:51.802318",
+ "modified_by": "Administrator",
+ "module": "EpiFund",
+ "name": "EpiFund",
+ "number_cards": [
+  {
+   "label": "Total Theoretical Value of Fund",
+   "number_card_name": "Total Theoretical Value of Fund"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "Epinomy",
+ "public": 1,
+ "quick_lists": [
+  {
+   "document_type": "Founder",
+   "label": "Founders",
+   "quick_list_filter": "[]"
+  },
+  {
+   "document_type": "Contribution",
+   "label": "Contributions",
+   "quick_list_filter": "[]"
+  }
+ ],
+ "roles": [
+  {
+   "role": "Founder Fund Administrator"
+  },
+  {
+   "role": "Founder Fund Contributor"
+  }
+ ],
+ "sequence_id": 35.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Slicing Pie Website",
+   "type": "URL",
+   "url": "https://slicingpie.com"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Points Distribution by Founder",
+   "link_to": "Points by Founder",
+   "type": "Report"
+  }
+ ],
+ "title": "EpiFund"
+}
